@@ -4,9 +4,13 @@ import { Component } from "@angular/core";
 @Component({
     selector: 'app-homepage',
     templateUrl: './homepage.html',
-    // styleUrls: ['./homepage.css']
+    styleUrls: ['./homepage.css']
   })
   
   export class Homepage {
-    
+
+    constructor() { }
+
+    ngOnInit() {}
+
   }
